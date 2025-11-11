@@ -14,20 +14,20 @@ describe('Users API', () => {
   it('POST /api/users cria usuário válido', async () => {
     const res = await request(app)
       .post('/api/users')
-      .send({ name: 'Ana', email: 'ana@ex.com' })
+      .send({ name: 'Ana', email: 'ilovewoosungsomuch@ex.com' })
     expect(res.status).toBe(201)
-    expect(res.body.data).toMatchObject({ name: 'Ana', email: 'ana@ex.com' })
+    expect(res.body.data).toMatchObject({ name: 'Ana', email: 'ilovewoosungsomuch@ex.com' })
   })
   it('GET /api/users lista usuários', async () => {
-    await prisma.user.create({ data: { name: 'Ana', email: 'ana@ex.com' } })
+    await prisma.user.create({ data: { name: 'Ana', email: 'ilovewoosungsomuch@ex.com' } })
     const res = await request(app).get('/api/users')
     expect(res.status).toBe(200)
     expect(Array.isArray(res.body.data)).toBe(true)
-    expect(res.body.data.some((u: any) => u.email === 'ana@ex.com')).toBe(true)
+    expect(res.body.data.some((u: any) => u.email === 'ilovewoosungsomuch@ex.com')).toBe(true)
   })
 it('PUT /api/users atualiza usuário', async () => {
   const user = await prisma.user.create({
-    data: { name: 'Ana', email: 'ana@ex.com' },
+    data: { name: 'Ana', email: 'ilovewoosungsomuch@ex.com' },
   });
 
   const updatedData = { 
@@ -47,7 +47,7 @@ it('PUT /api/users atualiza usuário', async () => {
 });
 it('DELETE /api/users excluir usuário', async () => {
   const user = await prisma.user.create({
-    data: { name: 'Ana', email: 'ana@ex.com' },
+    data: { name: 'Ana', email: 'ilovewoosungsomuch@ex.com' },
   });
 
   const resDel = await request(app)

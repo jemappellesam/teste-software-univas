@@ -1,4 +1,4 @@
-import { describe, it, beforeEach, afterAll, expect } from 'vitest'
+import { describe, it, beforeAll, afterAll, beforeEach, expect } from 'vitest'
 import request from 'supertest'
 import app, { prisma as appPrisma } from '../../src/index'
 import { prisma, resetDb } from './testDb'
