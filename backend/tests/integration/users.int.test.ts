@@ -57,7 +57,7 @@ it('DELETE /api/users excluir usuário', async () => {
      expect(resDel.body.success).toBe(true);
 
      
-     expect(resDel.message == "User deleted successfully");
+     expect(resDel.message === "User deleted successfully");
 
 });
 })
