@@ -1,0 +1,728 @@
+2025-11-18 19:28:34,951 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-11-18 19:28:34,966 INFO o.a.j.JMeter: Loading user properties from: C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2025-11-18 19:28:34,967 INFO o.a.j.JMeter: Loading system properties from: C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2025-11-18 19:28:34,967 INFO o.a.j.JMeter: Loading additional properties from: backend/tests/jmeter/props/local.properties
+2025-11-18 19:28:34,977 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-11-18 19:28:34,977 INFO o.a.j.JMeter: Version 5.6.3
+2025-11-18 19:28:34,977 INFO o.a.j.JMeter: java.version=24.0.2
+2025-11-18 19:28:34,977 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: os.name=Windows 11
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: os.arch=amd64
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: os.version=10.0
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: java.awt.headless=true
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-11-18 19:28:34,978 INFO o.a.j.JMeter: Available Processors =12
+2025-11-18 19:28:34,990 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-11-18 19:28:34,990 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-11-18 19:28:34,990 INFO o.a.j.JMeter: JMeterHome=C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-11-18 19:28:34,990 INFO o.a.j.JMeter: user.dir  =C:\Users\labunivas\Desktop\test software\teste-software-univas
+2025-11-18 19:28:34,990 INFO o.a.j.JMeter: PWD       =C:\Users\labunivas\Desktop\test software\teste-software-univas
+2025-11-18 19:28:34,992 INFO o.a.j.JMeter: IP: 192.168.191.152 Name: UNI-LABF-7454 FullName: UNI-LABF-7454.fuvs.br
+2025-11-18 19:28:35,001 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks'
+2025-11-18 19:28:35,003 INFO o.a.j.s.FileServer: Default base='C:\Users\labunivas\Desktop\test software\teste-software-univas'
+2025-11-18 19:28:35,005 INFO o.a.j.s.FileServer: Set new base='C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\plans'
+2025-11-18 19:28:35,290 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-11-18 19:28:35,323 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-11-18 19:28:35,326 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-11-18 19:28:35,330 INFO o.a.j.s.SaveService: Loading file: backend\tests\jmeter\plans\tasks.jmx
+2025-11-18 19:28:35,377 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-18 19:28:35,377 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-18 19:28:35,377 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-18 19:28:35,377 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-18 19:28:35,377 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-11-18 19:28:35,377 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-11-18 19:28:35,401 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-11-18 19:28:35,404 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-11-18 19:28:35,404 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: backend/tests/jmeter/results/tasks.jtl
+2025-11-18 19:28:35,404 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-11-18 19:28:35,405 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-11-18 19:28:35,408 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-11-18 19:28:35,410 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-11-18 19:28:35,410 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-11-18 19:28:35,410 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-11-18 19:28:35,411 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-11-18 19:28:35,411 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-11-18 19:28:35,411 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-11-18 19:28:35,411 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-11-18 19:28:35,412 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-11-18 19:28:35,414 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,414 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,414 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-18 19:28:35,417 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-11-18 19:28:35,417 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-11-18 19:28:35,418 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-11-18 19:28:35,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-11-18 19:28:35,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-11-18 19:28:35,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-11-18 19:28:35,432 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-11-18 19:28:35,432 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-11-18 19:28:35,433 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-11-18 19:28:35,445 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-11-18 19:28:35,445 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-11-18 19:28:35,508 INFO o.a.j.JMeter: Running test (1763504915508)
+2025-11-18 19:28:35,530 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : tasks
+2025-11-18 19:28:35,530 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group tasks.
+2025-11-18 19:28:35,530 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-11-18 19:28:35,530 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=200 ramp-up=7 delayedStart=false
+2025-11-18 19:28:35,537 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-1
+2025-11-18 19:28:35,556 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = UNI-LABF-7454
+2025-11-18 19:28:35,567 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-11-18 19:28:35,570 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-11-18 19:28:35,570 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-11-18 19:28:35,570 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-11-18 19:28:35,570 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-11-18 19:28:35,571 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-2
+2025-11-18 19:28:35,594 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-11-18 19:28:35,595 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-11-18 19:28:35,605 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-3
+2025-11-18 19:28:35,639 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-4
+2025-11-18 19:28:35,674 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-5
+2025-11-18 19:28:35,709 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-6
+2025-11-18 19:28:35,743 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-7
+2025-11-18 19:28:35,751 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-2
+2025-11-18 19:28:35,751 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-2
+2025-11-18 19:28:35,751 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-6
+2025-11-18 19:28:35,751 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-5
+2025-11-18 19:28:35,751 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-6
+2025-11-18 19:28:35,751 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-3
+2025-11-18 19:28:35,752 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-3
+2025-11-18 19:28:35,752 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-4
+2025-11-18 19:28:35,752 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-5
+2025-11-18 19:28:35,752 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    4.1/s Avg:     6 Min:     6 Max:     6 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+2025-11-18 19:28:35,752 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-4
+2025-11-18 19:28:35,752 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-1
+2025-11-18 19:28:35,753 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-1
+2025-11-18 19:28:35,757 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-7
+2025-11-18 19:28:35,757 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-7
+2025-11-18 19:28:35,778 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-8
+2025-11-18 19:28:35,784 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-8
+2025-11-18 19:28:35,784 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-8
+2025-11-18 19:28:35,812 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-9
+2025-11-18 19:28:35,820 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-9
+2025-11-18 19:28:35,820 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-9
+2025-11-18 19:28:35,847 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-10
+2025-11-18 19:28:35,859 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-10
+2025-11-18 19:28:35,859 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-10
+2025-11-18 19:28:35,881 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-11
+2025-11-18 19:28:35,897 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-11
+2025-11-18 19:28:35,897 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-11
+2025-11-18 19:28:35,917 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-12
+2025-11-18 19:28:35,924 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-12
+2025-11-18 19:28:35,924 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-12
+2025-11-18 19:28:35,952 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-13
+2025-11-18 19:28:35,962 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-13
+2025-11-18 19:28:35,963 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-13
+2025-11-18 19:28:35,987 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-14
+2025-11-18 19:28:36,000 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-14
+2025-11-18 19:28:36,000 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-14
+2025-11-18 19:28:36,022 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-15
+2025-11-18 19:28:36,032 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-15
+2025-11-18 19:28:36,032 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-15
+2025-11-18 19:28:36,056 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-16
+2025-11-18 19:28:36,067 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-16
+2025-11-18 19:28:36,067 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-16
+2025-11-18 19:28:36,091 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-17
+2025-11-18 19:28:36,105 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-17
+2025-11-18 19:28:36,105 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-17
+2025-11-18 19:28:36,127 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-18
+2025-11-18 19:28:36,134 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-18
+2025-11-18 19:28:36,135 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-18
+2025-11-18 19:28:36,162 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-19
+2025-11-18 19:28:36,171 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-19
+2025-11-18 19:28:36,171 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-19
+2025-11-18 19:28:36,196 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-20
+2025-11-18 19:28:36,208 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-20
+2025-11-18 19:28:36,208 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-20
+2025-11-18 19:28:36,231 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-21
+2025-11-18 19:28:36,241 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-21
+2025-11-18 19:28:36,241 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-21
+2025-11-18 19:28:36,267 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-22
+2025-11-18 19:28:36,276 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-22
+2025-11-18 19:28:36,276 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-22
+2025-11-18 19:28:36,302 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-23
+2025-11-18 19:28:36,314 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-23
+2025-11-18 19:28:36,314 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-23
+2025-11-18 19:28:36,336 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-24
+2025-11-18 19:28:36,347 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-24
+2025-11-18 19:28:36,347 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-24
+2025-11-18 19:28:36,373 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-25
+2025-11-18 19:28:36,386 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-25
+2025-11-18 19:28:36,386 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-25
+2025-11-18 19:28:36,407 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-26
+2025-11-18 19:28:36,418 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-26
+2025-11-18 19:28:36,418 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-26
+2025-11-18 19:28:36,441 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-27
+2025-11-18 19:28:36,453 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-27
+2025-11-18 19:28:36,454 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-27
+2025-11-18 19:28:36,477 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-28
+2025-11-18 19:28:36,485 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-28
+2025-11-18 19:28:36,486 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-28
+2025-11-18 19:28:36,511 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-29
+2025-11-18 19:28:36,518 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-29
+2025-11-18 19:28:36,518 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-29
+2025-11-18 19:28:36,548 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-30
+2025-11-18 19:28:36,554 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-30
+2025-11-18 19:28:36,554 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-30
+2025-11-18 19:28:36,581 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-31
+2025-11-18 19:28:36,588 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-31
+2025-11-18 19:28:36,588 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-31
+2025-11-18 19:28:36,617 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-32
+2025-11-18 19:28:36,629 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-32
+2025-11-18 19:28:36,629 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-32
+2025-11-18 19:28:36,652 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-33
+2025-11-18 19:28:36,662 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-33
+2025-11-18 19:28:36,662 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-33
+2025-11-18 19:28:36,685 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-34
+2025-11-18 19:28:36,696 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-34
+2025-11-18 19:28:36,696 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-34
+2025-11-18 19:28:36,720 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-35
+2025-11-18 19:28:36,735 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-35
+2025-11-18 19:28:36,735 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-35
+2025-11-18 19:28:36,757 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-36
+2025-11-18 19:28:36,767 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-36
+2025-11-18 19:28:36,768 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-36
+2025-11-18 19:28:36,791 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-37
+2025-11-18 19:28:36,802 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-37
+2025-11-18 19:28:36,803 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-37
+2025-11-18 19:28:36,826 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-38
+2025-11-18 19:28:36,835 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-38
+2025-11-18 19:28:36,836 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-38
+2025-11-18 19:28:36,861 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-39
+2025-11-18 19:28:36,871 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-39
+2025-11-18 19:28:36,871 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-39
+2025-11-18 19:28:36,895 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-40
+2025-11-18 19:28:36,908 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-40
+2025-11-18 19:28:36,908 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-40
+2025-11-18 19:28:36,930 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-41
+2025-11-18 19:28:36,942 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-41
+2025-11-18 19:28:36,942 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-41
+2025-11-18 19:28:36,966 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-42
+2025-11-18 19:28:36,976 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-42
+2025-11-18 19:28:36,976 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-42
+2025-11-18 19:28:37,001 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-43
+2025-11-18 19:28:37,014 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-43
+2025-11-18 19:28:37,014 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-43
+2025-11-18 19:28:37,035 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-44
+2025-11-18 19:28:37,046 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-44
+2025-11-18 19:28:37,047 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-44
+2025-11-18 19:28:37,070 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-45
+2025-11-18 19:28:37,080 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-45
+2025-11-18 19:28:37,080 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-45
+2025-11-18 19:28:37,106 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-46
+2025-11-18 19:28:37,118 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-46
+2025-11-18 19:28:37,118 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-46
+2025-11-18 19:28:37,141 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-47
+2025-11-18 19:28:37,153 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-47
+2025-11-18 19:28:37,153 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-47
+2025-11-18 19:28:37,177 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-48
+2025-11-18 19:28:37,191 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-48
+2025-11-18 19:28:37,191 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-48
+2025-11-18 19:28:37,211 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-49
+2025-11-18 19:28:37,222 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-49
+2025-11-18 19:28:37,222 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-49
+2025-11-18 19:28:37,246 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-50
+2025-11-18 19:28:37,256 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-50
+2025-11-18 19:28:37,256 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-50
+2025-11-18 19:28:37,282 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-51
+2025-11-18 19:28:37,294 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-51
+2025-11-18 19:28:37,294 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-51
+2025-11-18 19:28:37,316 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-52
+2025-11-18 19:28:37,329 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-52
+2025-11-18 19:28:37,329 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-52
+2025-11-18 19:28:37,351 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-53
+2025-11-18 19:28:37,362 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-53
+2025-11-18 19:28:37,362 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-53
+2025-11-18 19:28:37,388 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-54
+2025-11-18 19:28:37,397 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-54
+2025-11-18 19:28:37,397 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-54
+2025-11-18 19:28:37,422 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-55
+2025-11-18 19:28:37,433 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-55
+2025-11-18 19:28:37,433 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-55
+2025-11-18 19:28:37,456 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-56
+2025-11-18 19:28:37,470 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-56
+2025-11-18 19:28:37,470 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-56
+2025-11-18 19:28:37,491 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-57
+2025-11-18 19:28:37,500 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-57
+2025-11-18 19:28:37,500 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-57
+2025-11-18 19:28:37,526 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-58
+2025-11-18 19:28:37,534 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-58
+2025-11-18 19:28:37,534 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-58
+2025-11-18 19:28:37,562 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-59
+2025-11-18 19:28:37,569 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-59
+2025-11-18 19:28:37,569 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-59
+2025-11-18 19:28:37,595 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-60
+2025-11-18 19:28:37,605 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-60
+2025-11-18 19:28:37,605 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-60
+2025-11-18 19:28:37,632 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-61
+2025-11-18 19:28:37,645 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-61
+2025-11-18 19:28:37,646 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-61
+2025-11-18 19:28:37,665 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-62
+2025-11-18 19:28:37,673 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-62
+2025-11-18 19:28:37,673 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-62
+2025-11-18 19:28:37,701 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-63
+2025-11-18 19:28:37,709 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-63
+2025-11-18 19:28:37,709 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-63
+2025-11-18 19:28:37,736 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-64
+2025-11-18 19:28:37,743 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-64
+2025-11-18 19:28:37,743 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-64
+2025-11-18 19:28:37,771 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-65
+2025-11-18 19:28:37,779 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-65
+2025-11-18 19:28:37,779 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-65
+2025-11-18 19:28:37,807 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-66
+2025-11-18 19:28:37,819 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-66
+2025-11-18 19:28:37,819 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-66
+2025-11-18 19:28:37,840 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-67
+2025-11-18 19:28:37,850 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-67
+2025-11-18 19:28:37,850 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-67
+2025-11-18 19:28:37,876 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-68
+2025-11-18 19:28:37,887 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-68
+2025-11-18 19:28:37,888 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-68
+2025-11-18 19:28:37,911 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-69
+2025-11-18 19:28:37,923 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-69
+2025-11-18 19:28:37,923 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-69
+2025-11-18 19:28:37,946 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-70
+2025-11-18 19:28:37,962 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-70
+2025-11-18 19:28:37,962 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-70
+2025-11-18 19:28:37,980 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-71
+2025-11-18 19:28:37,989 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-71
+2025-11-18 19:28:37,989 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-71
+2025-11-18 19:28:38,015 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-72
+2025-11-18 19:28:38,026 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-72
+2025-11-18 19:28:38,026 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-72
+2025-11-18 19:28:38,052 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-73
+2025-11-18 19:28:38,063 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-73
+2025-11-18 19:28:38,064 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-73
+2025-11-18 19:28:38,086 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-74
+2025-11-18 19:28:38,098 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-74
+2025-11-18 19:28:38,098 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-74
+2025-11-18 19:28:38,122 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-75
+2025-11-18 19:28:38,134 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-75
+2025-11-18 19:28:38,134 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-75
+2025-11-18 19:28:38,155 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-76
+2025-11-18 19:28:38,165 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-76
+2025-11-18 19:28:38,165 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-76
+2025-11-18 19:28:38,190 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-77
+2025-11-18 19:28:38,202 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-77
+2025-11-18 19:28:38,203 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-77
+2025-11-18 19:28:38,225 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-78
+2025-11-18 19:28:38,238 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-78
+2025-11-18 19:28:38,238 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-78
+2025-11-18 19:28:38,262 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-79
+2025-11-18 19:28:38,272 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-79
+2025-11-18 19:28:38,273 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-79
+2025-11-18 19:28:38,296 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-80
+2025-11-18 19:28:38,308 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-80
+2025-11-18 19:28:38,308 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-80
+2025-11-18 19:28:38,331 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-81
+2025-11-18 19:28:38,343 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-81
+2025-11-18 19:28:38,343 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-81
+2025-11-18 19:28:38,366 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-82
+2025-11-18 19:28:38,378 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-82
+2025-11-18 19:28:38,378 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-82
+2025-11-18 19:28:38,400 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-83
+2025-11-18 19:28:38,411 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-83
+2025-11-18 19:28:38,411 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-83
+2025-11-18 19:28:38,436 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-84
+2025-11-18 19:28:38,447 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-84
+2025-11-18 19:28:38,447 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-84
+2025-11-18 19:28:38,470 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-85
+2025-11-18 19:28:38,482 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-85
+2025-11-18 19:28:38,483 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-85
+2025-11-18 19:28:38,505 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-86
+2025-11-18 19:28:38,514 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-86
+2025-11-18 19:28:38,514 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-86
+2025-11-18 19:28:38,540 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-87
+2025-11-18 19:28:38,550 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-87
+2025-11-18 19:28:38,550 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-87
+2025-11-18 19:28:38,578 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-88
+2025-11-18 19:28:38,586 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-88
+2025-11-18 19:28:38,586 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-88
+2025-11-18 19:28:38,613 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-89
+2025-11-18 19:28:38,629 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-89
+2025-11-18 19:28:38,629 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-89
+2025-11-18 19:28:38,647 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-90
+2025-11-18 19:28:38,654 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-90
+2025-11-18 19:28:38,655 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-90
+2025-11-18 19:28:38,681 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-91
+2025-11-18 19:28:38,693 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-91
+2025-11-18 19:28:38,693 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-91
+2025-11-18 19:28:38,716 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-92
+2025-11-18 19:28:38,724 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-92
+2025-11-18 19:28:38,724 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-92
+2025-11-18 19:28:38,751 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-93
+2025-11-18 19:28:38,759 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-93
+2025-11-18 19:28:38,760 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-93
+2025-11-18 19:28:38,787 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-94
+2025-11-18 19:28:38,795 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-94
+2025-11-18 19:28:38,795 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-94
+2025-11-18 19:28:38,822 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-95
+2025-11-18 19:28:38,831 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-95
+2025-11-18 19:28:38,831 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-95
+2025-11-18 19:28:38,856 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-96
+2025-11-18 19:28:38,863 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-96
+2025-11-18 19:28:38,863 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-96
+2025-11-18 19:28:38,891 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-97
+2025-11-18 19:28:38,900 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-97
+2025-11-18 19:28:38,900 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-97
+2025-11-18 19:28:38,927 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-98
+2025-11-18 19:28:38,940 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-98
+2025-11-18 19:28:38,940 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-98
+2025-11-18 19:28:38,962 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-99
+2025-11-18 19:28:38,973 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-99
+2025-11-18 19:28:38,973 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-99
+2025-11-18 19:28:38,996 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-100
+2025-11-18 19:28:39,009 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-100
+2025-11-18 19:28:39,009 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-100
+2025-11-18 19:28:39,031 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-101
+2025-11-18 19:28:39,041 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-101
+2025-11-18 19:28:39,041 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-101
+2025-11-18 19:28:39,067 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-102
+2025-11-18 19:28:39,080 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-102
+2025-11-18 19:28:39,080 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-102
+2025-11-18 19:28:39,102 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-103
+2025-11-18 19:28:39,114 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-103
+2025-11-18 19:28:39,114 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-103
+2025-11-18 19:28:39,137 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-104
+2025-11-18 19:28:39,147 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-104
+2025-11-18 19:28:39,147 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-104
+2025-11-18 19:28:39,171 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-105
+2025-11-18 19:28:39,178 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-105
+2025-11-18 19:28:39,179 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-105
+2025-11-18 19:28:39,206 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-106
+2025-11-18 19:28:39,214 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-106
+2025-11-18 19:28:39,214 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-106
+2025-11-18 19:28:39,243 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-107
+2025-11-18 19:28:39,249 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-107
+2025-11-18 19:28:39,249 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-107
+2025-11-18 19:28:39,277 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-108
+2025-11-18 19:28:39,286 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-108
+2025-11-18 19:28:39,286 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-108
+2025-11-18 19:28:39,312 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-109
+2025-11-18 19:28:39,321 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-109
+2025-11-18 19:28:39,321 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-109
+2025-11-18 19:28:39,346 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-110
+2025-11-18 19:28:39,357 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-110
+2025-11-18 19:28:39,357 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-110
+2025-11-18 19:28:39,382 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-111
+2025-11-18 19:28:39,394 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-111
+2025-11-18 19:28:39,394 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-111
+2025-11-18 19:28:39,416 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-112
+2025-11-18 19:28:39,424 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-112
+2025-11-18 19:28:39,424 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-112
+2025-11-18 19:28:39,450 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-113
+2025-11-18 19:28:39,461 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-113
+2025-11-18 19:28:39,461 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-113
+2025-11-18 19:28:39,485 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-114
+2025-11-18 19:28:39,496 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-114
+2025-11-18 19:28:39,496 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-114
+2025-11-18 19:28:39,521 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-115
+2025-11-18 19:28:39,528 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-115
+2025-11-18 19:28:39,528 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-115
+2025-11-18 19:28:39,556 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-116
+2025-11-18 19:28:39,585 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-116
+2025-11-18 19:28:39,585 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-116
+2025-11-18 19:28:39,593 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-117
+2025-11-18 19:28:39,597 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-117
+2025-11-18 19:28:39,598 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-117
+2025-11-18 19:28:39,628 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-118
+2025-11-18 19:28:39,645 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-118
+2025-11-18 19:28:39,645 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-118
+2025-11-18 19:28:39,663 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-119
+2025-11-18 19:28:39,669 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-119
+2025-11-18 19:28:39,669 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-119
+2025-11-18 19:28:39,696 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-120
+2025-11-18 19:28:39,710 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-120
+2025-11-18 19:28:39,710 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-120
+2025-11-18 19:28:39,731 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-121
+2025-11-18 19:28:39,743 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-121
+2025-11-18 19:28:39,744 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-121
+2025-11-18 19:28:39,767 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-122
+2025-11-18 19:28:39,774 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-122
+2025-11-18 19:28:39,774 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-122
+2025-11-18 19:28:39,801 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-123
+2025-11-18 19:28:39,814 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-123
+2025-11-18 19:28:39,814 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-123
+2025-11-18 19:28:39,836 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-124
+2025-11-18 19:28:39,848 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-124
+2025-11-18 19:28:39,848 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-124
+2025-11-18 19:28:39,871 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-125
+2025-11-18 19:28:39,882 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-125
+2025-11-18 19:28:39,882 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-125
+2025-11-18 19:28:39,909 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-126
+2025-11-18 19:28:39,924 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-126
+2025-11-18 19:28:39,924 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-126
+2025-11-18 19:28:39,941 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-127
+2025-11-18 19:28:39,949 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-127
+2025-11-18 19:28:39,949 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-127
+2025-11-18 19:28:39,976 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-128
+2025-11-18 19:28:39,995 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-128
+2025-11-18 19:28:39,995 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-128
+2025-11-18 19:28:40,012 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-129
+2025-11-18 19:28:40,020 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-129
+2025-11-18 19:28:40,020 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-129
+2025-11-18 19:28:40,046 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-130
+2025-11-18 19:28:40,057 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-130
+2025-11-18 19:28:40,058 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-130
+2025-11-18 19:28:40,080 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-131
+2025-11-18 19:28:40,088 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-131
+2025-11-18 19:28:40,088 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-131
+2025-11-18 19:28:40,115 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-132
+2025-11-18 19:28:40,126 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-132
+2025-11-18 19:28:40,127 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-132
+2025-11-18 19:28:40,151 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-133
+2025-11-18 19:28:40,163 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-133
+2025-11-18 19:28:40,163 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-133
+2025-11-18 19:28:40,185 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-134
+2025-11-18 19:28:40,193 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-134
+2025-11-18 19:28:40,193 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-134
+2025-11-18 19:28:40,222 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-135
+2025-11-18 19:28:40,232 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-135
+2025-11-18 19:28:40,232 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-135
+2025-11-18 19:28:40,256 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-136
+2025-11-18 19:28:40,266 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-136
+2025-11-18 19:28:40,266 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-136
+2025-11-18 19:28:40,291 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-137
+2025-11-18 19:28:40,300 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-137
+2025-11-18 19:28:40,301 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-137
+2025-11-18 19:28:40,326 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-138
+2025-11-18 19:28:40,335 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-138
+2025-11-18 19:28:40,336 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-138
+2025-11-18 19:28:40,361 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-139
+2025-11-18 19:28:40,371 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-139
+2025-11-18 19:28:40,371 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-139
+2025-11-18 19:28:40,396 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-140
+2025-11-18 19:28:40,406 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-140
+2025-11-18 19:28:40,406 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-140
+2025-11-18 19:28:40,430 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-141
+2025-11-18 19:28:40,439 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-141
+2025-11-18 19:28:40,439 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-141
+2025-11-18 19:28:40,467 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-142
+2025-11-18 19:28:40,474 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-142
+2025-11-18 19:28:40,474 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-142
+2025-11-18 19:28:40,502 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-143
+2025-11-18 19:28:40,509 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-143
+2025-11-18 19:28:40,509 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-143
+2025-11-18 19:28:40,536 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-144
+2025-11-18 19:28:40,542 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-144
+2025-11-18 19:28:40,542 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-144
+2025-11-18 19:28:40,572 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-145
+2025-11-18 19:28:40,579 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-145
+2025-11-18 19:28:40,579 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-145
+2025-11-18 19:28:40,607 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-146
+2025-11-18 19:28:40,613 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-146
+2025-11-18 19:28:40,613 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-146
+2025-11-18 19:28:40,640 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-147
+2025-11-18 19:28:40,650 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-147
+2025-11-18 19:28:40,651 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-147
+2025-11-18 19:28:40,677 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-148
+2025-11-18 19:28:40,684 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-148
+2025-11-18 19:28:40,684 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-148
+2025-11-18 19:28:40,712 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-149
+2025-11-18 19:28:40,719 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-149
+2025-11-18 19:28:40,719 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-149
+2025-11-18 19:28:40,747 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-150
+2025-11-18 19:28:40,754 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-150
+2025-11-18 19:28:40,754 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-150
+2025-11-18 19:28:40,780 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-151
+2025-11-18 19:28:40,789 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-151
+2025-11-18 19:28:40,789 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-151
+2025-11-18 19:28:40,817 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-152
+2025-11-18 19:28:40,824 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-152
+2025-11-18 19:28:40,824 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-152
+2025-11-18 19:28:40,851 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-153
+2025-11-18 19:28:40,860 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-153
+2025-11-18 19:28:40,860 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-153
+2025-11-18 19:28:40,885 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-154
+2025-11-18 19:28:40,896 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-154
+2025-11-18 19:28:40,896 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-154
+2025-11-18 19:28:40,920 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-155
+2025-11-18 19:28:40,929 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-155
+2025-11-18 19:28:40,930 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-155
+2025-11-18 19:28:40,956 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-156
+2025-11-18 19:28:40,966 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-156
+2025-11-18 19:28:40,966 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-156
+2025-11-18 19:28:40,992 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-157
+2025-11-18 19:28:41,003 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-157
+2025-11-18 19:28:41,003 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-157
+2025-11-18 19:28:41,026 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-158
+2025-11-18 19:28:41,033 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-158
+2025-11-18 19:28:41,033 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-158
+2025-11-18 19:28:41,062 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-159
+2025-11-18 19:28:41,080 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-159
+2025-11-18 19:28:41,080 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-159
+2025-11-18 19:28:41,098 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-160
+2025-11-18 19:28:41,107 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-160
+2025-11-18 19:28:41,107 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-160
+2025-11-18 19:28:41,131 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-161
+2025-11-18 19:28:41,138 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-161
+2025-11-18 19:28:41,138 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-161
+2025-11-18 19:28:41,166 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-162
+2025-11-18 19:28:41,192 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-162
+2025-11-18 19:28:41,192 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-162
+2025-11-18 19:28:41,202 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-163
+2025-11-18 19:28:41,207 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-163
+2025-11-18 19:28:41,207 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-163
+2025-11-18 19:28:41,236 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-164
+2025-11-18 19:28:41,247 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-164
+2025-11-18 19:28:41,247 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-164
+2025-11-18 19:28:41,272 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-165
+2025-11-18 19:28:41,283 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-165
+2025-11-18 19:28:41,283 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-165
+2025-11-18 19:28:41,307 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-166
+2025-11-18 19:28:41,319 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-166
+2025-11-18 19:28:41,319 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-166
+2025-11-18 19:28:41,341 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-167
+2025-11-18 19:28:41,353 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-167
+2025-11-18 19:28:41,353 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-167
+2025-11-18 19:28:41,376 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-168
+2025-11-18 19:28:41,386 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-168
+2025-11-18 19:28:41,387 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-168
+2025-11-18 19:28:41,412 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-169
+2025-11-18 19:28:41,426 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-169
+2025-11-18 19:28:41,426 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-169
+2025-11-18 19:28:41,446 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-170
+2025-11-18 19:28:41,454 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-170
+2025-11-18 19:28:41,454 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-170
+2025-11-18 19:28:41,480 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-171
+2025-11-18 19:28:41,493 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-171
+2025-11-18 19:28:41,493 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-171
+2025-11-18 19:28:41,518 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-172
+2025-11-18 19:28:41,525 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-172
+2025-11-18 19:28:41,527 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-172
+2025-11-18 19:28:41,551 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-173
+2025-11-18 19:28:41,561 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-173
+2025-11-18 19:28:41,561 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-173
+2025-11-18 19:28:41,585 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-174
+2025-11-18 19:28:41,593 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-174
+2025-11-18 19:28:41,594 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-174
+2025-11-18 19:28:41,622 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-175
+2025-11-18 19:28:41,630 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-175
+2025-11-18 19:28:41,630 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-175
+2025-11-18 19:28:41,658 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-176
+2025-11-18 19:28:41,683 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-176
+2025-11-18 19:28:41,683 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-176
+2025-11-18 19:28:41,693 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-177
+2025-11-18 19:28:41,702 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-177
+2025-11-18 19:28:41,702 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-177
+2025-11-18 19:28:41,726 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-178
+2025-11-18 19:28:41,733 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-178
+2025-11-18 19:28:41,733 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-178
+2025-11-18 19:28:41,761 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-179
+2025-11-18 19:28:41,767 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-179
+2025-11-18 19:28:41,767 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-179
+2025-11-18 19:28:41,797 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-180
+2025-11-18 19:28:41,805 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-180
+2025-11-18 19:28:41,805 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-180
+2025-11-18 19:28:41,831 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-181
+2025-11-18 19:28:41,838 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-181
+2025-11-18 19:28:41,838 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-181
+2025-11-18 19:28:41,867 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-182
+2025-11-18 19:28:41,871 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-182
+2025-11-18 19:28:41,871 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-182
+2025-11-18 19:28:41,902 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-183
+2025-11-18 19:28:41,908 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-183
+2025-11-18 19:28:41,908 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-183
+2025-11-18 19:28:41,935 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-184
+2025-11-18 19:28:41,942 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-184
+2025-11-18 19:28:41,942 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-184
+2025-11-18 19:28:41,971 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-185
+2025-11-18 19:28:41,978 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-185
+2025-11-18 19:28:41,978 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-185
+2025-11-18 19:28:42,005 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-186
+2025-11-18 19:28:42,013 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-186
+2025-11-18 19:28:42,013 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-186
+2025-11-18 19:28:42,043 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-187
+2025-11-18 19:28:42,052 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-187
+2025-11-18 19:28:42,052 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-187
+2025-11-18 19:28:42,077 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-188
+2025-11-18 19:28:42,084 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-188
+2025-11-18 19:28:42,084 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-188
+2025-11-18 19:28:42,111 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-189
+2025-11-18 19:28:42,120 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-189
+2025-11-18 19:28:42,120 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-189
+2025-11-18 19:28:42,146 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-190
+2025-11-18 19:28:42,152 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-190
+2025-11-18 19:28:42,152 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-190
+2025-11-18 19:28:42,181 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-191
+2025-11-18 19:28:42,190 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-191
+2025-11-18 19:28:42,190 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-191
+2025-11-18 19:28:42,216 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-192
+2025-11-18 19:28:42,222 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-192
+2025-11-18 19:28:42,222 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-192
+2025-11-18 19:28:42,252 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-193
+2025-11-18 19:28:42,260 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-193
+2025-11-18 19:28:42,261 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-193
+2025-11-18 19:28:42,286 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-194
+2025-11-18 19:28:42,298 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-194
+2025-11-18 19:28:42,298 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-194
+2025-11-18 19:28:42,320 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-195
+2025-11-18 19:28:42,328 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-195
+2025-11-18 19:28:42,328 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-195
+2025-11-18 19:28:42,356 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-196
+2025-11-18 19:28:42,367 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-196
+2025-11-18 19:28:42,367 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-196
+2025-11-18 19:28:42,391 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-197
+2025-11-18 19:28:42,402 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-197
+2025-11-18 19:28:42,402 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-197
+2025-11-18 19:28:42,425 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-198
+2025-11-18 19:28:42,441 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-198
+2025-11-18 19:28:42,441 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-198
+2025-11-18 19:28:42,460 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-199
+2025-11-18 19:28:42,468 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-199
+2025-11-18 19:28:42,468 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-199
+2025-11-18 19:28:42,495 INFO o.a.j.t.JMeterThread: Thread started: tasks 1-200
+2025-11-18 19:28:42,507 INFO o.a.j.t.JMeterThread: Thread is done: tasks 1-200
+2025-11-18 19:28:42,507 INFO o.a.j.t.JMeterThread: Thread finished: tasks 1-200
+2025-11-18 19:28:42,508 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-11-18 19:28:42,509 INFO o.a.j.r.Summariser: summary +    199 in 00:00:07 =   29.4/s Avg:     9 Min:     4 Max:    43 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2025-11-18 19:28:42,510 INFO o.a.j.r.Summariser: summary =    200 in 00:00:07 =   28.6/s Avg:     9 Min:     4 Max:    43 Err:     0 (0.00%)
+2025-11-18 19:28:42,511 INFO o.a.j.JMeter: Generating Dashboard
+2025-11-18 19:28:42,511 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-11-18 19:28:42,522 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-11-18 19:28:42,606 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-11-18 19:28:42,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-11-18 19:28:42,609 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-11-18 19:28:42,609 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-11-18 19:28:42,614 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-11-18 19:28:42,615 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-11-18 19:28:42,615 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-11-18 19:28:42,615 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-11-18 19:28:42,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-11-18 19:28:42,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-11-18 19:28:42,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-11-18 19:28:42,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-11-18 19:28:42,636 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-11-18 19:28:42,636 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1400 samples
+2025-11-18 19:28:42,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-11-18 19:28:42,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-11-18 19:28:42,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-11-18 19:28:42,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-11-18 19:28:42,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-11-18 19:28:42,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-11-18 19:28:42,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-11-18 19:28:42,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-11-18 19:28:42,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-11-18 19:28:42,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-11-18 19:28:42,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 3000 samples
+2025-11-18 19:28:42,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 600 samples
+2025-11-18 19:28:42,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 200 samples
+2025-11-18 19:28:42,639 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 200 samples produced in 92ms on channel 0
+2025-11-18 19:28:42,639 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-11-18 19:28:42,705 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-11-18 19:28:42,705 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-11-18 19:28:42,705 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-11-18 19:28:42,706 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-11-18 19:28:42,706 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks\statistics.json
+2025-11-18 19:28:42,758 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-11-18 19:28:42,762 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks
+2025-11-18 19:28:42,863 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks, creating folder structure
+2025-11-18 19:28:42,865 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks', got message: C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks, found non empty folder with following content [C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\jmeter\reports\tasks\statistics.json], will be ignored
+2025-11-18 19:28:43,280 INFO o.a.j.JMeter: Dashboard generated

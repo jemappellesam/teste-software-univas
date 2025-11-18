@@ -1,0 +1,40 @@
+2025-11-13 21:55:06,109 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-11-13 21:55:06,125 INFO o.a.j.JMeter: Loading user properties from: C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2025-11-13 21:55:06,126 INFO o.a.j.JMeter: Loading system properties from: C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2025-11-13 21:55:06,126 INFO o.a.j.JMeter: Loading additional properties from: backend/tests/jmeter/props/local.properties
+2025-11-13 21:55:06,126 WARN o.a.j.JMeter: Can't find additional property file: backend/tests/jmeter/props/local.properties
+java.io.FileNotFoundException: backend\tests\jmeter\props\local.properties (O sistema não pode encontrar o caminho especificado)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139) ~[?:?]
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:800) [ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:379) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: Version 5.6.3
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: java.version=24.0.2
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: os.name=Windows 11
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: os.arch=amd64
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: os.version=10.0
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: java.awt.headless=true
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-11-13 21:55:06,148 INFO o.a.j.JMeter: Available Processors =12
+2025-11-13 21:55:06,159 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-11-13 21:55:06,160 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-11-13 21:55:06,160 INFO o.a.j.JMeter: JMeterHome=C:\Users\labunivas\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-11-13 21:55:06,160 INFO o.a.j.JMeter: user.dir  =C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests
+2025-11-13 21:55:06,161 INFO o.a.j.JMeter: PWD       =C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests
+2025-11-13 21:55:06,162 INFO o.a.j.JMeter: IP: 192.168.190.198 Name: UNI-LABF-7454 FullName: UNI-LABF-7454.fuvs.br
+2025-11-13 21:55:06,171 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\Users\labunivas\Desktop\test software\teste-software-univas\backend\tests\backend\tests\jmeter\reports\smoke' as folder does not exist and parent folder is not writable
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:672) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:620) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:542) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:492) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
